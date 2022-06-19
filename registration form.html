@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <header style="text-align:center">
+                <h1>Registration Form</h1>
+                <p>Fill The Registration Form to get yourself Registered</p>
+                <image width="800" height="200"
+                    src="https://mea.allegion.com/content/dam/Common-digital-asset-library/images/Web/other-images/stock-photography/Fotolia_82601032_Subscription_Yearly_XL.jpg.thumb.1280.1280.jpg">
+                    <hr>
+            </header>
+            <main style="font-size:20px; text-align: center;">
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" id="name"><br><br><br>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email"><br><br><br>
+                <label for="dept"><b>Department</b></label>
+                <select name="dept" id="dept">
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="Civil">Civil</option>
+                    <option value="Electronics">Electronics</option>
+                </select><br><br><br>
+                <label for="optsub"><b>Choose Optional Subject</b></label><br>
+                <div id="optsub">
+                    <label for="optsub1">Graphic Designing
+                        <input type="checkbox" value="Graphic designing" name="optsub1" id="optsub1">
+                    </label><br>
+                    <label for="optsub2">Cryptography
+                        <input type="checkbox" value="Cryptography" name="optsub2" id="optsub2">
+                    </label><br>
+                    <label for="optsub3">Video Editing
+                        <input type="checkbox" value="Video Editing" name="optsub3" id="optsub3">
+                    </label>
+                </div><br><br><br>
+
+
+                <label for="pwd"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="pwd" id="pwd"><br><br><br>
+                <label for="con-pwd"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" name="con-pwd" id="con-pwd"><br><br><br>
+                <label for="opinion"><b>Opinion</b></label>
+                <textarea name="opinion" id="opinion"
+                    placeholder="Please give your opinion for improvements in next semester"></textarea><br><br>
+                <Button type="submit">Register</Button>
+            </main>
+
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

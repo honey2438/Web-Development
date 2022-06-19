@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+
+</head>
+<link rel="stylesheet" href="HTML_TUT/style.css">
+<style>
+    body {
+        background: url("gym.jpg");
+
+    }
+
+    #first {
+        display: inline;
+        position: absolute;
+        top: 41px;
+        left: 160px
+    }
+
+    #first img {
+        filter: invert(100%);
+        display: inline-block;
+        margin: 0px 54px;
+        width: 50px;
+    }
+
+    #first h2 {
+        text-align: center;
+        padding: 8px 0px;
+        margin: 0px;
+        color: white;
+    }
+
+    #mid {
+        display: block;
+        width: 36%;
+        margin: 29px auto;
+
+    }
+
+    #mid ul {
+        display: block;
+        margin: 51px -8px;
+    }
+
+    #mid li {
+
+        display: inline-block;
+        list-style: none;
+    }
+
+    #mid li a {
+        color: white;
+        font-size: 20px;
+        padding: 2px 4px;
+        margin: 4px 10px;
+        text-decoration: none;
+
+    }
+
+    #last {
+        display: inline;
+        position: absolute;
+        top: 45px;
+        right: 81px;
+
+    }
+
+    .btn {
+        background-color: white;
+        color: black;
+        padding: 4px;
+        font-size: medium;
+        border: 2px solid black;
+        border-radius: 8px;
+        margin: 4px;
+    }
+
+    #mid li a:hover,
+    .btn:hover {
+        color: rgb(168, 162, 162);
+    }
+
+    main {
+        position: absolute;
+        left: 301px;
+        top: 231px;
+    }
+
+    main h3 {
+        text-align: center;
+        color: white;
+    }
+
+    input {
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 449px;
+        height: 27px;
+        margin: 14px 0px;
+    }
+
+    .for button {
+        margin: 31px 0px;
+        width: 458px;
+
+    }
+</style>
+
+<body>
+    <header class="container">
+        <div class="navbar">
+            <div id="first">
+                <img src="logo.png" alt="">
+                <h2>Devansh Fitness</h2>
+            </div>
+            <div id="mid">
+                <ul id="list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                </ul>
+            </div>
+            <div id="last">
+                <button class="btn">Call us now</button>
+                <button class="btn">Email us</button>
+            </div>
+        </div>
+        </div>
+        <div>
+
+        </div>
+    </header>
+    <main>
+        <form action="null">
+            <div class="for">
+                <h3>Fill This Form</h3>
+                <input type="text" placeholder="Enter your Name"><br>
+                <input type="text" placeholder="Enter your Age"><br>
+                <input type="text" placeholder="Enter your City"><br>
+                <input type="text" placeholder="Enter your Mobile no"><br>
+                <button class="btn">Submit</button>
+            </div>
+
+
+        </form>
+    </main>
+
+</body>
+
+</html>

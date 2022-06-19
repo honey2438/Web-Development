@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnClick</title>
+    <style>
+        #btn{
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: red;
+            font-size: medium;
+            color:black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>This is My Heading</h1>
+        <p id="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat dicta obcaecati, quod nemo dolorum iusto sapiente accusantium! Asperiores est amet libero consequatur quis odio repudiandae inventore! Voluptates aliquam consectetur perferendis.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis deleniti atque accusamus, minus nisi temporibus libero, voluptates delectus voluptate animi eveniet quo similique provident cum recusandae quibusdam molestiae quas quasi.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio consequatur ex aliquid quisquam impedit, ad maxime asperiores facilis delectus nesciunt, in ab. Ea sint pariatur harum iste facilis cumque aperiam?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, illum commodi architecto tempora optio provident consectetur maxime quis sint corrupti placeat omnis sit. Necessitatibus minus dicta nostrum laudantium quis qui!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sapiente sunt ratione voluptatibus culpa doloremque, animi molestias, a repellendus voluptatum atque dolorum eius quae, nulla voluptate harum eum nihil adipisci.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate iste sequi doloribus quas! Quas eos debitis excepturi voluptates porro fugit eum, expedita beatae quo nisi. Cum quasi blanditiis tempora ipsum.
+        </p>
+    </div>
+    <button id="btn" onclick="toggleHide()">Subscribe</button>
+    <script>
+        function toggleHide(){
+            let para = document.getElementById('para');
+            if(para.style.display != 'null'){
+                ;
+            }
+            else{
+                para.style.display ='block';
+            }
+        }
+    </script>
+</body>
+
+</html>
